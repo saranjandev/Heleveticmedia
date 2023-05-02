@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design & Development</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="agency.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/Helevetic Media (1).png" alt="logo" class="logo"></a>
+        <div class="navlinks">
+        <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="webdesign.html">Web Design & Development</a></li>
+                <li><a href="branding.html">Branding Designs</a></li>
+                <li><a href="smma.html">Social Media Marketing</a></li>
+               <li><a href="index.html" class="buttonheader">Contact Us</a></li> 
+                 </ul>  
+    </div>  
+
+   <div class="btn-mobile"> <i class='bx bx-dots-vertical-rounded' ></i> </div>
+      <div class="dropdown-menu">
+        <li><a href="index.html" >Home</a></li>
+                <li><a href="webdesign.html">Web Design & Development</a></li>
+                <li><a href="branding.html">Branding Designs</a></li>
+                <li><a href="smma.html">Social Media Marketing</a></li>
+               <li><a href="index.html" class="buttonheader">Contact Us</a></li> 
+      </div>  
+    </header>
+
+    <script>
+        const btnMobile = document.querySelector ('.btn-mobile')
+        const btnMobileIcon = document.querySelector ('.btn-mobile i')
+        const dropDownMenu = document.querySelector ('.dropdown-menu')
+   btnMobile.onclick = function() {
+    dropDownMenu.classList.toggle('open')
+    const isOpen =dropDownMenu.classList.contains('open')
+   btnMobileIcon.classList = isOpen
+   ? 'bx bx-x-circle'
+   : 'bx bx-dots-vertical-rounded'
+}
+   
+   </script>
+
+    <section id="webdesign-header">
+        <div class="container">
+        <p class="minititle">Our Services</p>
+        <h2>Web Design & Development</h2>
+        <p>Our web design and development service creates custom websites that are tailored to your business needs. We work with you to understand your brand, goals, and audience, and use the latest technologies to create a modern, user-friendly website. We handle everything from planning and design to development and launch, and offer ongoing support to ensure your website is always up-to-date and running smoothly.</p>
+        <a href="index.html" class="buttonwebdesign">Get Your Website</a>
+        </div>
+        <img src="img/web design.jpg" class="webdesignimg" alt="webdesign-graphic">
+    </section>
+
+    <section id="provide">
+        <div class="container">
+            <div class="provideheader">
+            <p class="minititle">From Concept to Launch</p>
+            <h2>What's Included</h2>
+        </div>
+           <div class="provideservice">
+            <div class="service">
+                <img src="img/devices.png" class="provideicon" alt="device-graphic">
+                <h3>One Website, Any Device</h3>
+                <p>Our website is optimized for all devices, regardless of the screen size or device they are using.</p>
+            </div>
+            <div class="service">
+                <img src="img/seo.png" class="provideicon" alt="seo-graphic">
+                <h3>SEO</h3>
+                <p>Our team prioritizes Search Engine Optimization in our website development process to help improve your online visibility and attract more organic traffic to your site.</p>
+            </div>
+            <div class="service">
+                <img src="img/update.png" class="provideicon" alt="update-graphic">
+                <h3>Always Updated</h3>
+                <p>Our web designers and developers stay on top of the latest technologies, so our clients can expect innovative solutions for their website needs.</p>
+            </div>
+            <div class="service">
+                <img src="img/homepage.png" class="provideicon" alt="homepage-graphic">
+                <h3>Unique Homepage</h3>
+                <p>We design a customized homepage that reflects your brand and values, ensuring that your website is both visually appealing and user-friendly.</p>
+            </div>
+            <div class="service">
+                <img src="img/page.png" class="provideicon" alt="page-graphic">
+                <h3>Personalized Pages</h3>
+                <p>We create pages that describe your business, products, and services, tailored to your needs and goals.</p>
+            </div>
+            <div class="service">
+                <img src="img/email.png" class="provideicon" alt="email-graphic">
+                <h3>Stay Connected With Your Clients</h3>
+                <p>Get business requests straight to your email with our integrated contact forms on your website.</p>
+            </div>
+            <div class="service">
+                <img src="img/location.png" class="provideicon" alt="location-graphic">
+                <h3>Visualize Your Location</h3>
+                <p>Make it easy for customers to locate your business by adding a Google Map on your Contact page.</p>
+            </div>
+            <div class="service">
+                <img src="img/hosting.png" class="provideicon" alt="hosting-graphic">
+                <h3>Hosting, Security & Support</h3>
+                <p>Our technical teams are here to ensure your website is up and running securely around the clock.</p>
+            </div>
+            <div class="service">
+                <img src="img/translating.png" class="provideicon" alt="translating-graphic">
+                <h3>Multilingual</h3>
+                <p>We create multilingual websites to help you connect with your target audience worldwide, expanding your business locally or internationally.</p>
+            </div>
+        </div> 
+        </div>
+    </section>
+
+
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="webdesign.html">Web Design & Development</a></li>
+                        <li><a href="branding.html">Branding Designs</a></li>
+                        <li><a href="smma.html">Social Media Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <ul class="social-media">
+                            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-facebook' ></i></a></li>
+                            <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <p>Copyright &copy Helevetic Media 2023. All rights reserved. </p>
+        </div>
+     </div>
+    
+</body>
+
+
