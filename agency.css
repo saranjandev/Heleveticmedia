@@ -1251,7 +1251,13 @@ h1{
 }
 
 }
-
+@media (max-width:770px){
+   #header{
+      background: url(img/background.jpg);
+   background-size:cover;
+   background-position: right;
+   }
+}
 
 @media (max-width:590px){
 #header .container {
