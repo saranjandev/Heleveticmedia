@@ -498,7 +498,8 @@ form textarea:focus {
    list-style: none;
  }
 
- .footer-col ul li a {
+ .footer-col ul li a,
+.infomail{
    font-size: 16px;
    text-decoration: none;
    color: #bbbbbb;
@@ -507,7 +508,8 @@ form textarea:focus {
    transition: all .3s ease;
  }
 
- .footer-col ul li a:hover{
+ .footer-col ul li a:hover,
+.infomail:hover{
    color: white;
    padding-left: 6px;
  }
